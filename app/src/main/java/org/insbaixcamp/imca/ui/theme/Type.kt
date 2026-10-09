@@ -6,29 +6,63 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
-// Set of Material typography styles to start with
 val Typography = Typography(
+    displayLarge = TextStyle(
+        fontFamily = FontFamily.Monospace,
+        fontWeight = FontWeight.Bold,
+        fontSize = 32.sp,
+        letterSpacing = 2.sp,
+        color = CyberGreen
+    ),
+    displayMedium = TextStyle(
+        fontFamily = FontFamily.Monospace,
+        fontWeight = FontWeight.Bold,
+        fontSize = 24.sp,
+        letterSpacing = 1.5.sp,
+        color = CyberGreen
+    ),
+    titleLarge = TextStyle(
+        fontFamily = FontFamily.Monospace,
+        fontWeight = FontWeight.Bold,
+        fontSize = 20.sp,
+        letterSpacing = 1.2.sp,
+        color = CyberGreen
+    ),
+    titleMedium = TextStyle(
+        fontFamily = FontFamily.Monospace,
+        fontWeight = FontWeight.SemiBold,
+        fontSize = 16.sp,
+        letterSpacing = 1.sp,
+        color = CyberGreen
+    ),
     bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
+        fontFamily = FontFamily.Monospace,
         fontWeight = FontWeight.Normal,
         fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
+        lineHeight = 22.sp,
+        letterSpacing = 0.8.sp,
+        color = CyberGreen
     ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
+    bodyMedium = TextStyle(
+        fontFamily = FontFamily.Monospace,
+        fontWeight = FontWeight.Normal,
+        fontSize = 14.sp,
+        lineHeight = 18.sp,
+        letterSpacing = 0.5.sp,
+        color = CyberTextSecondary
+    ),
+    labelLarge = TextStyle(
+        fontFamily = FontFamily.Monospace,
+        fontWeight = FontWeight.Bold,
+        fontSize = 14.sp,
+        letterSpacing = 1.2.sp,
+        color = CyberGreen
+    ),
+    labelMedium = TextStyle(
+        fontFamily = FontFamily.Monospace,
         fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
+        fontSize = 12.sp,
+        letterSpacing = 0.8.sp,
+        color = CyberTextDim
     )
-    */
 )

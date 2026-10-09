@@ -2,10 +2,22 @@ package org.insbaixcamp.imca.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val Purple80 = Color(0xFFD0BCFF)
-val PurpleGrey80 = Color(0xFFCCC2DC)
-val Pink80 = Color(0xFFEFB8C8)
+// Hacker Cyberpunk Palette
+val CyberGreen = Color(0xFF00FF66)
+val CyberGreenBright = Color(0xFF33FF00)
+val CyberGreenDark = Color(0xFF003311)
+val CyberGreenMuted = Color(0xFF008833)
+val CyberGreenGlow = Color(0x6600FF66)
 
-val Purple40 = Color(0xFF6650a4)
-val PurpleGrey40 = Color(0xFF625b71)
-val Pink40 = Color(0xFF7D5260)
+val CyberBlack = Color(0xFF080C09)
+val CyberSurface = Color(0xFF0F1A12)
+val CyberSurfaceVariant = Color(0xFF16261B)
+
+val CyberCyan = Color(0xFF00F0FF)
+val CyberRed = Color(0xFFFF0055)
+val CyberYellow = Color(0xFFFFD700)
+val CyberOrange = Color(0xFFFF6600)
+
+val CyberTextPrimary = Color(0xFF00FF66)
+val CyberTextSecondary = Color(0xFF88CC99)
+val CyberTextDim = Color(0xFF447755)
